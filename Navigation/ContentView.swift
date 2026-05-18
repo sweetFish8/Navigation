@@ -12,13 +12,13 @@ struct ContentView: View {
         VStack {
             TabView{
                 Tab("タブ１", systemImage: "1.circle.fill"){
-                    Screen1()
+                    Screen1View()
                 }
                 Tab("タブ２", systemImage: "2.circle.fill"){
-                    Screen2()
+                    Screen2View()
                 }
                 Tab("タブ3", systemImage: "3.circle.fill"){
-                    Screen3()
+                    Screen3View()
                 }
             }
         }
